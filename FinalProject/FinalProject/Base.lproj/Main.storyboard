@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13770" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="2AW-tU-BxO">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="2AW-tU-BxO">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13770"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -17,19 +17,73 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6An-Bq-525" customClass="BorderButton" customModule="FinalProject" customModuleProvider="target">
+                                <rect key="frame" x="224" y="118" width="87" height="30"/>
+                                <state key="normal" title="Meme Editor">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="A3l-qN-DbU" kind="show" id="gFH-24-EfE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kH2-fc-Kcz" customClass="BorderButton" customModule="FinalProject" customModuleProvider="target">
+                                <rect key="frame" x="158.5" y="617" width="57" height="30"/>
+                                <state key="normal" title="Settings">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="ycD-lz-Bcj" kind="show" id="Bun-d3-nNi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A9v-ca-IGR" customClass="BorderButton" customModule="FinalProject" customModuleProvider="target">
+                                <rect key="frame" x="65" y="118" width="85" height="30"/>
+                                <state key="normal" title="Photo Editor">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="E3M-ZE-hRR" kind="show" id="Uun-dW-JT3"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.76906843470838282" green="0.85313853888481006" blue="0.96231379533678751" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="kH2-fc-Kcz" secondAttribute="bottom" constant="20" id="3z8-kM-gbA"/>
+                            <constraint firstItem="6An-Bq-525" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="8Mg-bg-gwi"/>
+                            <constraint firstItem="kH2-fc-Kcz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HC2-27-YKH"/>
+                            <constraint firstItem="A9v-ca-IGR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-80" id="We6-KY-Qhf"/>
+                            <constraint firstItem="A9v-ca-IGR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="l3p-JF-uJy"/>
+                            <constraint firstItem="6An-Bq-525" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="80" id="p6f-TA-MuE"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" id="WtT-42-Kwz"/>
+                    <navigationItem key="navigationItem" title="CptS479 Final" prompt="Aleks Zemlyanskiy" id="WtT-42-Kwz"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="456.80000000000001" y="118.29085457271366"/>
         </scene>
-        <!--MemeEditorController-->
+        <!--SettingsView-->
+        <scene sceneID="Jvx-Km-ijs">
+            <objects>
+                <viewController title="SettingsView" id="ycD-lz-Bcj" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="81j-cd-ppu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Ho2-3n-Kp5"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="67l-BN-dc3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="457" y="897"/>
+        </scene>
+        <!--MemeEditorView-->
         <scene sceneID="Vq8-xh-Ikf">
             <objects>
-                <viewController title="MemeEditorController" id="A3l-qN-DbU" sceneMemberID="viewController">
+                <viewController title="MemeEditorView" id="A3l-qN-DbU" customClass="MemeEditorViewController" customModule="FinalProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hH2-9H-GzA">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -41,10 +95,10 @@
             </objects>
             <point key="canvasLocation" x="1378" y="551"/>
         </scene>
-        <!--PhotoEditorController-->
+        <!--PhotoEditorView-->
         <scene sceneID="g5p-se-omZ">
             <objects>
-                <viewController title="PhotoEditorController" id="E3M-ZE-hRR" sceneMemberID="viewController">
+                <viewController title="PhotoEditorView" id="E3M-ZE-hRR" customClass="PhotoEditorViewController" customModule="FinalProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iPn-A9-mla">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

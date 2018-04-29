@@ -13,6 +13,12 @@
 		BA46720A2079492900611829 /* FinalProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA4672082079492900611829 /* FinalProject.xcdatamodeld */; };
 		BA46720C2079492900611829 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA46720B2079492900611829 /* Assets.xcassets */; };
 		BA46720F2079492900611829 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA46720D2079492900611829 /* LaunchScreen.storyboard */; };
+		BA80605E209500FB00748E69 /* MemeEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA80605D209500FB00748E69 /* MemeEditorViewController.swift */; };
+		BA8060602095013200748E69 /* PhotoEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA80605F2095013200748E69 /* PhotoEditorViewController.swift */; };
+		BA8060622095114400748E69 /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8060612095114400748E69 /* BorderButton.swift */; };
+		BA80606420951E6000748E69 /* UIButton+BackgroundColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA80606320951E6000748E69 /* UIButton+BackgroundColor.swift */; };
+		BA80606620958DBC00748E69 /* MemeCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA80606520958DBC00748E69 /* MemeCanvas.swift */; };
+		BA80606820958DCF00748E69 /* PhotoCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA80606720958DCF00748E69 /* PhotoCanvas.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		BA46720B2079492900611829 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA46720E2079492900611829 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA4672102079492900611829 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA80605D209500FB00748E69 /* MemeEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeEditorViewController.swift; sourceTree = "<group>"; };
+		BA80605F2095013200748E69 /* PhotoEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoEditorViewController.swift; sourceTree = "<group>"; };
+		BA8060612095114400748E69 /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
+		BA80606320951E6000748E69 /* UIButton+BackgroundColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+BackgroundColor.swift"; sourceTree = "<group>"; };
+		BA80606520958DBC00748E69 /* MemeCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeCanvas.swift; sourceTree = "<group>"; };
+		BA80606720958DCF00748E69 /* PhotoCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCanvas.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +68,15 @@
 		BA4672002079492900611829 /* FinalProject */ = {
 			isa = PBXGroup;
 			children = (
+				BA8060612095114400748E69 /* BorderButton.swift */,
 				BA4672012079492900611829 /* AppDelegate.swift */,
 				BA4672032079492900611829 /* ViewController.swift */,
+				BA80606520958DBC00748E69 /* MemeCanvas.swift */,
+				BA80606720958DCF00748E69 /* PhotoCanvas.swift */,
 				BA4672052079492900611829 /* Main.storyboard */,
+				BA80606320951E6000748E69 /* UIButton+BackgroundColor.swift */,
+				BA80605D209500FB00748E69 /* MemeEditorViewController.swift */,
+				BA80605F2095013200748E69 /* PhotoEditorViewController.swift */,
 				BA46720B2079492900611829 /* Assets.xcassets */,
 				BA46720D2079492900611829 /* LaunchScreen.storyboard */,
 				BA4672102079492900611829 /* Info.plist */,
@@ -142,6 +160,12 @@
 				BA4672042079492900611829 /* ViewController.swift in Sources */,
 				BA4672022079492900611829 /* AppDelegate.swift in Sources */,
 				BA46720A2079492900611829 /* FinalProject.xcdatamodeld in Sources */,
+				BA80606620958DBC00748E69 /* MemeCanvas.swift in Sources */,
+				BA80605E209500FB00748E69 /* MemeEditorViewController.swift in Sources */,
+				BA80606820958DCF00748E69 /* PhotoCanvas.swift in Sources */,
+				BA8060602095013200748E69 /* PhotoEditorViewController.swift in Sources */,
+				BA80606420951E6000748E69 /* UIButton+BackgroundColor.swift in Sources */,
+				BA8060622095114400748E69 /* BorderButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
