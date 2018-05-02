@@ -47,14 +47,24 @@
                                     <segue destination="E3M-ZE-hRR" kind="show" id="Uun-dW-JT3"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MIN-S9-awR">
+                                <rect key="frame" x="8" y="293.5" width="359" height="81.5"/>
+                                <string key="text">For Some Reason I Thought This Was Due This Friday, not Today (5/1), so a great deal of this was rushed. (My git commit history looks like the Dirac Delta function)</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.76906843470838282" green="0.85313853888481006" blue="0.96231379533678751" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="kH2-fc-Kcz" secondAttribute="bottom" constant="20" id="3z8-kM-gbA"/>
                             <constraint firstItem="6An-Bq-525" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="8Mg-bg-gwi"/>
+                            <constraint firstItem="MIN-S9-awR" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Ght-Fj-Anr"/>
                             <constraint firstItem="kH2-fc-Kcz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HC2-27-YKH"/>
                             <constraint firstItem="A9v-ca-IGR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-80" id="We6-KY-Qhf"/>
+                            <constraint firstItem="MIN-S9-awR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="imm-JL-s4i"/>
                             <constraint firstItem="A9v-ca-IGR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="l3p-JF-uJy"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="MIN-S9-awR" secondAttribute="trailing" constant="8" id="ltk-lP-OqE"/>
                             <constraint firstItem="6An-Bq-525" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="80" id="p6f-TA-MuE"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -72,7 +82,25 @@
                     <view key="view" contentMode="scaleToFill" id="81j-cd-ppu">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="sP4-21-EFu">
+                                <rect key="frame" x="127" y="94" width="121" height="29"/>
+                                <segments>
+                                    <segment title="First"/>
+                                    <segment title="Second"/>
+                                </segments>
+                            </segmentedControl>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xNP-55-gyY">
+                                <rect key="frame" x="163" y="152" width="51" height="31"/>
+                            </switch>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="xNP-55-gyY" firstAttribute="centerX" secondItem="81j-cd-ppu" secondAttribute="centerX" id="SRV-D9-Nwh"/>
+                            <constraint firstItem="sP4-21-EFu" firstAttribute="top" secondItem="Ho2-3n-Kp5" secondAttribute="top" constant="30" id="jeS-Wz-RfZ"/>
+                            <constraint firstItem="sP4-21-EFu" firstAttribute="centerX" secondItem="81j-cd-ppu" secondAttribute="centerX" id="jnC-dK-TZG"/>
+                            <constraint firstItem="xNP-55-gyY" firstAttribute="top" secondItem="sP4-21-EFu" secondAttribute="bottom" constant="30" id="slD-eH-ekv"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Ho2-3n-Kp5"/>
                     </view>
                 </viewController>
@@ -90,6 +118,9 @@
                         <subviews>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BW0-2W-bBa">
                                 <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="oeL-YC-QEM"/>
+                                </constraints>
                                 <items>
                                     <barButtonItem title="Select Template" id="iEC-1Y-8zW">
                                         <connections>
@@ -97,7 +128,7 @@
                                         </connections>
                                     </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="uTZ-aZ-N44"/>
-                                    <barButtonItem title="Text Tool" id="KKv-hs-HbK"/>
+                                    <barButtonItem title="Text Tool (Not Implemented, just tap)" id="KKv-hs-HbK"/>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="Gsh-pU-HRM"/>
                                     <barButtonItem title="Etymology" id="Y9a-Iq-9yx"/>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="ngl-3T-ars"/>
@@ -120,6 +151,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="QNl-mk-jfV"/>
                     </view>
+                    <connections>
+                        <outlet property="canvasImageView" destination="cPZ-jc-lXF" id="pgF-2E-Jjj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e0T-cF-TNl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -230,8 +264,12 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="EiS-rN-JYg"/>
                     </view>
+                    <connections>
+                        <segue destination="vTq-l2-lU7" kind="unwind" identifier="unwindToMemePage" unwindAction="unwindToMemePage:" id="LCU-MS-CY6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kjr-ba-eMy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="vTq-l2-lU7" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="2173.5999999999999" y="555.47226386806597"/>
         </scene>

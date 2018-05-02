@@ -27,6 +27,8 @@ class MemeSelectorViewController: UIViewController, UIGestureRecognizerDelegate 
         if let imageView = sender.view as? UIImageView{
             selectedImage = images[imageViews.index(of: imageView)!]
         }
+        print(selectedImage)
+        performSegue(withIdentifier: "unwindToMemePage", sender: self)
     }
     
     func addTapGestureTo(_ image: UIImageView){
