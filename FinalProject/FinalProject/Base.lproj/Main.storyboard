@@ -102,13 +102,73 @@
                     <view key="view" contentMode="scaleToFill" id="iPn-A9-mla">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eRZ-T2-Qtf">
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <items>
+                                    <barButtonItem image="Library.png" id="Dxy-Ex-9cg">
+                                        <connections>
+                                            <action selector="LibraryTapped:" destination="E3M-ZE-hRR" id="DNg-fT-l5i"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="87l-mc-Ryn"/>
+                                    <barButtonItem image="camera.png" id="jqR-WT-Xz4">
+                                        <connections>
+                                            <action selector="CameraTapped:" destination="E3M-ZE-hRR" id="3FN-OJ-jjf"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="5Jn-hY-EAY"/>
+                                    <barButtonItem image="undo.png" id="20X-ug-bIY">
+                                        <connections>
+                                            <action selector="UndoTapped:" destination="E3M-ZE-hRR" id="WTj-NK-1aY"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="BPR-R8-3LB"/>
+                                    <barButtonItem image="save.png" id="5kM-Mr-RWU">
+                                        <connections>
+                                            <action selector="SaveTapped:" destination="E3M-ZE-hRR" id="Tc6-Jd-h7y"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="qCI-1s-Dkd"/>
+                                    <barButtonItem image="delete.png" id="soh-dC-SlZ">
+                                        <connections>
+                                            <action selector="DeleteTapped:" destination="E3M-ZE-hRR" id="kfJ-jV-q3h"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jh9-C7-C2p">
+                                <rect key="frame" x="0.0" y="579" width="375" height="44"/>
+                                <items>
+                                    <barButtonItem title="Item" id="liq-dd-dY6"/>
+                                </items>
+                            </toolbar>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rPW-DL-fCt">
+                                <rect key="frame" x="0.0" y="64" width="375" height="515"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="rPW-DL-fCt" firstAttribute="top" secondItem="Z8X-ji-YTF" secondAttribute="top" id="8ki-vH-sby"/>
+                            <constraint firstItem="jh9-C7-C2p" firstAttribute="trailing" secondItem="rPW-DL-fCt" secondAttribute="trailing" id="FtE-NJ-i46"/>
+                            <constraint firstItem="jh9-C7-C2p" firstAttribute="top" secondItem="rPW-DL-fCt" secondAttribute="bottom" id="HPr-av-Phl"/>
+                            <constraint firstItem="rPW-DL-fCt" firstAttribute="leading" secondItem="Z8X-ji-YTF" secondAttribute="leading" id="Hbp-8o-91J"/>
+                            <constraint firstAttribute="bottom" secondItem="jh9-C7-C2p" secondAttribute="bottom" constant="44" id="JFc-rm-xTT"/>
+                            <constraint firstItem="Z8X-ji-YTF" firstAttribute="trailing" secondItem="rPW-DL-fCt" secondAttribute="trailing" id="fLy-vX-hwb"/>
+                            <constraint firstItem="jh9-C7-C2p" firstAttribute="trailing" secondItem="eRZ-T2-Qtf" secondAttribute="trailing" id="gFp-7O-mNX"/>
+                            <constraint firstItem="jh9-C7-C2p" firstAttribute="leading" secondItem="eRZ-T2-Qtf" secondAttribute="leading" id="oM8-bZ-Wu0"/>
+                            <constraint firstItem="jh9-C7-C2p" firstAttribute="leading" secondItem="rPW-DL-fCt" secondAttribute="leading" id="qTj-vO-7xe"/>
+                            <constraint firstItem="jh9-C7-C2p" firstAttribute="bottom" secondItem="eRZ-T2-Qtf" secondAttribute="top" id="vnT-PR-AEr"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Z8X-ji-YTF"/>
                     </view>
+                    <connections>
+                        <outlet property="MainCanvas" destination="rPW-DL-fCt" id="mtr-ju-Igl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XVC-3M-VCm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1388" y="-268"/>
+            <point key="canvasLocation" x="1388" y="-268.51574212893553"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="8Xx-Xa-aTa">
@@ -129,4 +189,11 @@
             <point key="canvasLocation" x="-463" y="118"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Library.png" width="32" height="32"/>
+        <image name="camera.png" width="32" height="32"/>
+        <image name="delete.png" width="32" height="32"/>
+        <image name="save.png" width="32" height="32"/>
+        <image name="undo.png" width="32" height="32"/>
+    </resources>
 </document>

@@ -19,6 +19,11 @@
 		BA80606420951E6000748E69 /* UIButton+BackgroundColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA80606320951E6000748E69 /* UIButton+BackgroundColor.swift */; };
 		BA80606620958DBC00748E69 /* MemeCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA80606520958DBC00748E69 /* MemeCanvas.swift */; };
 		BA80606820958DCF00748E69 /* PhotoCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA80606720958DCF00748E69 /* PhotoCanvas.swift */; };
+		BA94AE8B2098C2570029296F /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = BA94AE8A2098C2570029296F /* camera.png */; };
+		BA94AE8D2098C2DA0029296F /* undo.png in Resources */ = {isa = PBXBuildFile; fileRef = BA94AE8C2098C2DA0029296F /* undo.png */; };
+		BA94AE8F2098C2DF0029296F /* save.png in Resources */ = {isa = PBXBuildFile; fileRef = BA94AE8E2098C2DF0029296F /* save.png */; };
+		BA94AE912098C30A0029296F /* delete.png in Resources */ = {isa = PBXBuildFile; fileRef = BA94AE902098C30A0029296F /* delete.png */; };
+		BA94AE952098C4EE0029296F /* Library.png in Resources */ = {isa = PBXBuildFile; fileRef = BA94AE942098C4EE0029296F /* Library.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +41,11 @@
 		BA80606320951E6000748E69 /* UIButton+BackgroundColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+BackgroundColor.swift"; sourceTree = "<group>"; };
 		BA80606520958DBC00748E69 /* MemeCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeCanvas.swift; sourceTree = "<group>"; };
 		BA80606720958DCF00748E69 /* PhotoCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCanvas.swift; sourceTree = "<group>"; };
+		BA94AE8A2098C2570029296F /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
+		BA94AE8C2098C2DA0029296F /* undo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = undo.png; sourceTree = "<group>"; };
+		BA94AE8E2098C2DF0029296F /* save.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = save.png; sourceTree = "<group>"; };
+		BA94AE902098C30A0029296F /* delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delete.png; sourceTree = "<group>"; };
+		BA94AE942098C4EE0029296F /* Library.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Library.png; path = ../../../../../../../Downloads/Library.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +78,7 @@
 		BA4672002079492900611829 /* FinalProject */ = {
 			isa = PBXGroup;
 			children = (
+				BA94AE872098C1B80029296F /* Icons */,
 				BA8060612095114400748E69 /* BorderButton.swift */,
 				BA4672012079492900611829 /* AppDelegate.swift */,
 				BA4672032079492900611829 /* ViewController.swift */,
@@ -83,6 +94,18 @@
 				BA4672082079492900611829 /* FinalProject.xcdatamodeld */,
 			);
 			path = FinalProject;
+			sourceTree = "<group>";
+		};
+		BA94AE872098C1B80029296F /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				BA94AE942098C4EE0029296F /* Library.png */,
+				BA94AE902098C30A0029296F /* delete.png */,
+				BA94AE8E2098C2DF0029296F /* save.png */,
+				BA94AE8C2098C2DA0029296F /* undo.png */,
+				BA94AE8A2098C2570029296F /* camera.png */,
+			);
+			path = Icons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,9 +167,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA94AE912098C30A0029296F /* delete.png in Resources */,
+				BA94AE952098C4EE0029296F /* Library.png in Resources */,
 				BA46720F2079492900611829 /* LaunchScreen.storyboard in Resources */,
 				BA46720C2079492900611829 /* Assets.xcassets in Resources */,
 				BA4672072079492900611829 /* Main.storyboard in Resources */,
+				BA94AE8B2098C2570029296F /* camera.png in Resources */,
+				BA94AE8F2098C2DF0029296F /* save.png in Resources */,
+				BA94AE8D2098C2DA0029296F /* undo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +331,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2XPSP7UZ9E;
 				INFOPLIST_FILE = FinalProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aleksz.FinalProject;
@@ -317,6 +346,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2XPSP7UZ9E;
 				INFOPLIST_FILE = FinalProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aleksz.FinalProject;
