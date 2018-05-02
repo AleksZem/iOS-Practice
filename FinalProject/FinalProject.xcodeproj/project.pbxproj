@@ -13,6 +13,20 @@
 		BA46720A2079492900611829 /* FinalProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA4672082079492900611829 /* FinalProject.xcdatamodeld */; };
 		BA46720C2079492900611829 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA46720B2079492900611829 /* Assets.xcassets */; };
 		BA46720F2079492900611829 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA46720D2079492900611829 /* LaunchScreen.storyboard */; };
+		BA62E6BC20996BA6004ED4CC /* af6.png in Resources */ = {isa = PBXBuildFile; fileRef = BA62E6AF20996BA4004ED4CC /* af6.png */; };
+		BA62E6BD20996BA6004ED4CC /* 6dc.png in Resources */ = {isa = PBXBuildFile; fileRef = BA62E6B020996BA4004ED4CC /* 6dc.png */; };
+		BA62E6BE20996BA6004ED4CC /* 020.png in Resources */ = {isa = PBXBuildFile; fileRef = BA62E6B120996BA4004ED4CC /* 020.png */; };
+		BA62E6BF20996BA6004ED4CC /* 12d.png in Resources */ = {isa = PBXBuildFile; fileRef = BA62E6B220996BA4004ED4CC /* 12d.png */; };
+		BA62E6C020996BA6004ED4CC /* 252.png in Resources */ = {isa = PBXBuildFile; fileRef = BA62E6B320996BA5004ED4CC /* 252.png */; };
+		BA62E6C120996BA6004ED4CC /* 590.png in Resources */ = {isa = PBXBuildFile; fileRef = BA62E6B420996BA5004ED4CC /* 590.png */; };
+		BA62E6C220996BA6004ED4CC /* 2b4.png in Resources */ = {isa = PBXBuildFile; fileRef = BA62E6B520996BA5004ED4CC /* 2b4.png */; };
+		BA62E6C320996BA6004ED4CC /* 29e.png in Resources */ = {isa = PBXBuildFile; fileRef = BA62E6B620996BA5004ED4CC /* 29e.png */; };
+		BA62E6C420996BA6004ED4CC /* 85b.png in Resources */ = {isa = PBXBuildFile; fileRef = BA62E6B720996BA5004ED4CC /* 85b.png */; };
+		BA62E6C520996BA6004ED4CC /* b71.png in Resources */ = {isa = PBXBuildFile; fileRef = BA62E6B820996BA5004ED4CC /* b71.png */; };
+		BA62E6C620996BA6004ED4CC /* d4d.png in Resources */ = {isa = PBXBuildFile; fileRef = BA62E6B920996BA6004ED4CC /* d4d.png */; };
+		BA62E6C720996BA6004ED4CC /* 3c5.png in Resources */ = {isa = PBXBuildFile; fileRef = BA62E6BA20996BA6004ED4CC /* 3c5.png */; };
+		BA62E6C820996BA6004ED4CC /* b57.png in Resources */ = {isa = PBXBuildFile; fileRef = BA62E6BB20996BA6004ED4CC /* b57.png */; };
+		BA62E6CA209970FD004ED4CC /* MemeSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA62E6C9209970FD004ED4CC /* MemeSelectorViewController.swift */; };
 		BA80605E209500FB00748E69 /* MemeEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA80605D209500FB00748E69 /* MemeEditorViewController.swift */; };
 		BA8060602095013200748E69 /* PhotoEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA80605F2095013200748E69 /* PhotoEditorViewController.swift */; };
 		BA8060622095114400748E69 /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8060612095114400748E69 /* BorderButton.swift */; };
@@ -35,6 +49,20 @@
 		BA46720B2079492900611829 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA46720E2079492900611829 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA4672102079492900611829 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA62E6AF20996BA4004ED4CC /* af6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = af6.png; sourceTree = "<group>"; };
+		BA62E6B020996BA4004ED4CC /* 6dc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6dc.png; sourceTree = "<group>"; };
+		BA62E6B120996BA4004ED4CC /* 020.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 020.png; sourceTree = "<group>"; };
+		BA62E6B220996BA4004ED4CC /* 12d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 12d.png; sourceTree = "<group>"; };
+		BA62E6B320996BA5004ED4CC /* 252.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 252.png; sourceTree = "<group>"; };
+		BA62E6B420996BA5004ED4CC /* 590.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 590.png; sourceTree = "<group>"; };
+		BA62E6B520996BA5004ED4CC /* 2b4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2b4.png; sourceTree = "<group>"; };
+		BA62E6B620996BA5004ED4CC /* 29e.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 29e.png; sourceTree = "<group>"; };
+		BA62E6B720996BA5004ED4CC /* 85b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 85b.png; sourceTree = "<group>"; };
+		BA62E6B820996BA5004ED4CC /* b71.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = b71.png; sourceTree = "<group>"; };
+		BA62E6B920996BA6004ED4CC /* d4d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = d4d.png; sourceTree = "<group>"; };
+		BA62E6BA20996BA6004ED4CC /* 3c5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3c5.png; sourceTree = "<group>"; };
+		BA62E6BB20996BA6004ED4CC /* b57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = b57.png; sourceTree = "<group>"; };
+		BA62E6C9209970FD004ED4CC /* MemeSelectorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeSelectorViewController.swift; sourceTree = "<group>"; };
 		BA80605D209500FB00748E69 /* MemeEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeEditorViewController.swift; sourceTree = "<group>"; };
 		BA80605F2095013200748E69 /* PhotoEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoEditorViewController.swift; sourceTree = "<group>"; };
 		BA8060612095114400748E69 /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
@@ -78,6 +106,7 @@
 		BA4672002079492900611829 /* FinalProject */ = {
 			isa = PBXGroup;
 			children = (
+				BA62E6AE20996B92004ED4CC /* MemeFolder */,
 				BA94AE872098C1B80029296F /* Icons */,
 				BA8060612095114400748E69 /* BorderButton.swift */,
 				BA4672012079492900611829 /* AppDelegate.swift */,
@@ -85,6 +114,7 @@
 				BA80606520958DBC00748E69 /* MemeCanvas.swift */,
 				BA80606720958DCF00748E69 /* PhotoCanvas.swift */,
 				BA4672052079492900611829 /* Main.storyboard */,
+				BA62E6C9209970FD004ED4CC /* MemeSelectorViewController.swift */,
 				BA80606320951E6000748E69 /* UIButton+BackgroundColor.swift */,
 				BA80605D209500FB00748E69 /* MemeEditorViewController.swift */,
 				BA80605F2095013200748E69 /* PhotoEditorViewController.swift */,
@@ -94,6 +124,26 @@
 				BA4672082079492900611829 /* FinalProject.xcdatamodeld */,
 			);
 			path = FinalProject;
+			sourceTree = "<group>";
+		};
+		BA62E6AE20996B92004ED4CC /* MemeFolder */ = {
+			isa = PBXGroup;
+			children = (
+				BA62E6B520996BA5004ED4CC /* 2b4.png */,
+				BA62E6BA20996BA6004ED4CC /* 3c5.png */,
+				BA62E6B020996BA4004ED4CC /* 6dc.png */,
+				BA62E6B220996BA4004ED4CC /* 12d.png */,
+				BA62E6B120996BA4004ED4CC /* 020.png */,
+				BA62E6B620996BA5004ED4CC /* 29e.png */,
+				BA62E6B720996BA5004ED4CC /* 85b.png */,
+				BA62E6B320996BA5004ED4CC /* 252.png */,
+				BA62E6B420996BA5004ED4CC /* 590.png */,
+				BA62E6AF20996BA4004ED4CC /* af6.png */,
+				BA62E6BB20996BA6004ED4CC /* b57.png */,
+				BA62E6B820996BA5004ED4CC /* b71.png */,
+				BA62E6B920996BA6004ED4CC /* d4d.png */,
+			);
+			path = MemeFolder;
 			sourceTree = "<group>";
 		};
 		BA94AE872098C1B80029296F /* Icons */ = {
@@ -135,7 +185,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = Aleks;
 				TargetAttributes = {
 					BA4671FD2079492900611829 = {
@@ -167,13 +217,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA62E6BC20996BA6004ED4CC /* af6.png in Resources */,
+				BA62E6C720996BA6004ED4CC /* 3c5.png in Resources */,
+				BA62E6BD20996BA6004ED4CC /* 6dc.png in Resources */,
+				BA62E6C820996BA6004ED4CC /* b57.png in Resources */,
+				BA62E6C120996BA6004ED4CC /* 590.png in Resources */,
+				BA62E6C220996BA6004ED4CC /* 2b4.png in Resources */,
+				BA62E6BE20996BA6004ED4CC /* 020.png in Resources */,
 				BA94AE912098C30A0029296F /* delete.png in Resources */,
+				BA62E6C420996BA6004ED4CC /* 85b.png in Resources */,
 				BA94AE952098C4EE0029296F /* Library.png in Resources */,
 				BA46720F2079492900611829 /* LaunchScreen.storyboard in Resources */,
 				BA46720C2079492900611829 /* Assets.xcassets in Resources */,
+				BA62E6C020996BA6004ED4CC /* 252.png in Resources */,
+				BA62E6C320996BA6004ED4CC /* 29e.png in Resources */,
+				BA62E6C520996BA6004ED4CC /* b71.png in Resources */,
 				BA4672072079492900611829 /* Main.storyboard in Resources */,
 				BA94AE8B2098C2570029296F /* camera.png in Resources */,
+				BA62E6BF20996BA6004ED4CC /* 12d.png in Resources */,
 				BA94AE8F2098C2DF0029296F /* save.png in Resources */,
+				BA62E6C620996BA6004ED4CC /* d4d.png in Resources */,
 				BA94AE8D2098C2DA0029296F /* undo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -187,6 +250,7 @@
 			files = (
 				BA4672042079492900611829 /* ViewController.swift in Sources */,
 				BA4672022079492900611829 /* AppDelegate.swift in Sources */,
+				BA62E6CA209970FD004ED4CC /* MemeSelectorViewController.swift in Sources */,
 				BA46720A2079492900611829 /* FinalProject.xcdatamodeld in Sources */,
 				BA80606620958DBC00748E69 /* MemeCanvas.swift in Sources */,
 				BA80605E209500FB00748E69 /* MemeEditorViewController.swift in Sources */,
@@ -233,6 +297,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -240,6 +305,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -290,6 +356,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -297,6 +364,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
