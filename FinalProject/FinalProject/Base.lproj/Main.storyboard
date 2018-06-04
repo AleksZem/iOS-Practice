@@ -49,7 +49,7 @@
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MIN-S9-awR">
                                 <rect key="frame" x="8" y="293.5" width="359" height="81.5"/>
-                                <string key="text">For Some Reason I Thought This Was Due This Friday, not Today (5/1), so a great deal of this was rushed. (My git commit history looks like the Dirac Delta function)</string>
+                                <string key="text">WIP</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
